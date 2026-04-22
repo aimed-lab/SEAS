@@ -111,15 +111,15 @@
   /* focus */
   :focus-visible{outline:2px solid var(--teal);outline-offset:2px;border-radius:6px}
 
-  .btn{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink);font-size:13px;cursor:pointer;transition:background .15s,border-color .15s,transform .05s}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:13px;cursor:pointer;transition:background .15s,border-color .15s,transform .05s}
   .btn:hover{background:var(--surface-2)}
   .btn:active{transform:translateY(1px)}
-  .btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .btn.primary{background:var(--ink-solid);color:#f2f1ec;border-color:var(--ink-solid)}
   .btn.primary:hover{background:#2a2a27}
   .btn.ghost{background:transparent;border-color:transparent}
   .btn.ghost:hover{background:var(--surface-2);border-color:var(--line)}
-  .btn.ai{background:linear-gradient(180deg,#fff, #fdf5ea);border-color:#e9d5b4;color:#7a4210}
-  .btn.ai:hover{background:#fdf0df}
+  .btn.ai{background:linear-gradient(180deg,var(--surface),var(--amber-grad));border-color:#e9d5b4;color:#7a4210}
+  .btn.ai:hover{background:var(--amber-grad)}
   .btn.sm{padding:5px 9px;font-size:12px}
 
   /* chat/ai gradient accents */
