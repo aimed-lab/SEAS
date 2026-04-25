@@ -116,9 +116,7 @@ Copy-ready APA + BibTeX are available in the v2 app's **About** screen.
 
 Questions, feedback, or contributed datasets:
 
-- [jakechen@uab.edu](mailto:jakechen@uab.edu) — Jake Chen (PI, AI.MED Lab)
-- [thamnguy@uab.edu](mailto:thamnguy@uab.edu) — Thanh Nguyen (architect)
-- [sbharti@uab.edu](mailto:sbharti@uab.edu) — Samuel Bharti (programmer)
+- [jakechen@uab.edu](mailto:jakechen@uab.edu) — Jake Y. Chen, PhD
 
 ## License
 

@@ -47,7 +47,7 @@ const Sidebar = ({ screen, onNav, collapsed, onToggle }) => (
       {!collapsed && (<>
         <div style={{lineHeight:1.1, flex:1}}>
           <div style={{fontWeight:700, letterSpacing:"-.01em"}}>SEAS <span className="mono" style={{fontSize:11, color:"var(--ink-3)", fontWeight:500}}>2.0</span></div>
-          <div style={{fontSize:11, color:"var(--ink-3)"}}>AI.MED lab</div>
+          <div style={{fontSize:11, color:"var(--ink-3)"}}>Jake Y. Chen, PhD</div>
         </div>
       </>)}
       <button className="btn sm ghost" onClick={onToggle} style={{padding:"4px 6px"}}>
@@ -128,7 +128,7 @@ const Topbar = ({ onToggleChat, chatOpen, screen, theme, onToggleTheme, onOpenMe
       borderBottom:"1px solid var(--line)", display:"flex", alignItems:"center", gap:12, padding:"10px 20px"
     }}>
       <div style={{display:"flex", alignItems:"center", gap:8, fontSize:12.5, color:"var(--ink-3)"}}>
-        <Icon name="folder" size={13}/> AI.MED lab
+        <Icon name="folder" size={13}/> Jake Y. Chen, PhD
         <span>/</span>
         <span style={{color:"var(--ink)"}}>GBM case-study</span>
         <span>/</span>
@@ -478,7 +478,7 @@ const faqSections = [
       {
         q: "How should I cite SEAS 2.0?",
         a: (
-          <p>Cite the 2021 paper for the method. The 2.0 rewrite preserves the method; if you want to reference the rewrite specifically, cite the 2021 paper and note "SEAS 2.0 (AI.MED lab, 2026)" in Methods.</p>
+          <p>Cite the 2021 paper for the method. The 2.0 rewrite preserves the method; if you want to reference the rewrite specifically, cite the 2021 paper and note "SEAS 2.0 (Chen JY, 2026)" in Methods.</p>
         ),
       },
     ],
@@ -529,7 +529,7 @@ const AboutScreen = ({ onBack })=>{
 }`;
   return (
     <div style={{padding:"28px 28px 48px", maxWidth:920, margin:"0 auto"}}>
-      <PageHeader step={1} totalSteps={1} title="About SEAS" subtitle="A tool from the AI.MED lab to annotate metadata neighborhoods of biological samples." onBack={onBack}/>
+      <PageHeader step={1} totalSteps={1} title="About SEAS" subtitle="A tool by Jake Y. Chen, PhD to annotate metadata neighborhoods of biological samples." onBack={onBack}/>
       <div className="card" style={{marginTop:18, padding:22}}>
         <p style={{fontSize:13.5, lineHeight:1.6, color:"var(--ink-2)"}}>SEAS 2.0 is a rewrite of the original SEAS Shiny app in a modern web stack with an AI Copilot, MCP-based data connectors, and agentic execution. The core statistics — Fisher's, KS, log-rank, Cox — remain identical, so results from v1.1 are reproducible.</p>
         <div style={{display:"grid", gridTemplateColumns:"repeat(3,1fr)", gap:12, marginTop:14}}>
@@ -583,7 +583,7 @@ const AboutScreen = ({ onBack })=>{
 };
 
 // ---------- App ----------
-const currentUser = { name: "Siddharth K.", email: "siddharth.k@uab.edu", initials: "SK" };
+const currentUser = { name: "Jake Y. Chen", email: "jakechen@uab.edu", initials: "JC" };
 
 const App = () => {
   const [screen, setScreen] = uS2(() => localStorage.getItem("seas-screen") || "overview");

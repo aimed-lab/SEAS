@@ -191,7 +191,7 @@ const OverviewScreen = ({ dataset, onStart, onResume }) => {
       </div>
 
       {/* footer */}
-      <div style={{fontSize:11.5, color:"var(--ink-4)", textAlign:"center"}}>SEAS 2.0 · AI.MED lab · © 2026</div>
+      <div style={{fontSize:11.5, color:"var(--ink-4)", textAlign:"center"}}>SEAS 2.0 · Jake Y. Chen, PhD · © 2026</div>
     </div>
   );
 };
@@ -947,7 +947,7 @@ const ReportScreen = ({onBack, onProceed, cohortSize})=>{
           </div>
           <div style={{padding:"18px 22px", maxWidth:720}}>
             <div className="serif" style={{fontSize:28, lineHeight:1.15, marginBottom:10}}>Radiomic-defined GBM neighborhood around TCGA-02-0001-01</div>
-            <div style={{fontSize:12.5, color:"var(--ink-3)", marginBottom:18}}>Authors: Siddharth K. · Samuel Bharti · AI.MED lab · Apr 21, 2026</div>
+            <div style={{fontSize:12.5, color:"var(--ink-3)", marginBottom:18}}>Author: Jake Y. Chen, PhD · Apr 21, 2026</div>
 
             <h3 style={{fontSize:13.5, margin:"18px 0 6px", textTransform:"uppercase", letterSpacing:".08em", color:"var(--ink-3)"}}>Abstract</h3>
             <p style={{fontSize:13.5, lineHeight:1.6, margin:0}}>
